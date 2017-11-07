@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Properties\PublishProfiles\FolderProfile.pubxml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="bin\Release\PublishOutput\appsettings.Development.json" />
     <Content Include="bin\Release\PublishOutput\appsettings.json" />
     <Content Include="bin\Release\PublishOutput\bower.json" />
@@ -257,7 +261,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Published\" />
+    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
 
 </Project>
